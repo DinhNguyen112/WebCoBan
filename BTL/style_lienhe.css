@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    line-height: 1.4;
+    font-size: 14px;
+    color: #000;
+    overflow-x: hidden;
+    background: #fff;
+    position: initial !important;
+}
+.topbar {
+    padding: 8px 0;
+    font-weight: 500;
+    text-align: center;
+    background: #c2252e;
+    color: #fff;
+}
+
+.div_header {
+    display: flex;
+    background: #fff;
+    align-items: center;
+}
+
+.div_logo {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search a {
+    padding-left: 15px;
+}
+
+.nav_menu {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.header_logo {
+    height: 75px;
+    padding-left: 20px;
+}
+
+
+.nav_menu .menu ul li {
+    float: left;
+    line-height: 45px;
+    padding: 0 35px;
+    list-style: none;
+}
+
+.nav_menu .menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav_menu .menu ul li a:hover {
+    color: #c2252e;
+}
+
+.menu_down {
+    background-color: #fff;
+    width: 155px;
+    height: 20em;
+    margin: 21px auto;
+    position: absolute;
+    line-height: 3em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .25s linear;
+}
+
+.link_menu {
+    font-size: 12px;
+}
+
+.menu_down li {
+    text-align: center;
+    padding: 0px;
+}
+
+.menu_down li a:hover {
+    color: #c2252e;
+}
+
+.menu .menu_link:hover .menu_down {
+    opacity: 1;
+    visibility: visible;
+}
+
+.div_item {
+    margin: auto;
+}
+
+.div_item .item_tk {
+    width: 25px;
+    padding: 30px 17px;
+}
+
+.div_item ul {
+    display: flex;
+    list-style: none;
+}
+
+.item_tk {
+    padding: 0 35px;
+}
+
+.container {
+    max-width: 1600px;
+    padding: -1 85;
+    background-image: url(./IMG/background_menu2.webp);
+}
+
+.slide {
+    background-image: url(./IMG/slide_1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 27vw;
+}
+
+.contact_menu {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.wrapper {
+    width: 113%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_title {
+    font-size: 27px;
+    margin-top: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.about_title_first {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: none;
+    top: 8px;
+    position: relative;
+    color: #c2252e;
+    padding-bottom: 10px;
+}
+
+.about_title::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content_1 {
+    max-height: 490px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 13;
+}
+
+.content_2 {
+    max-height: 490px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px 0;
+    font-size: 13;
+}
+
+.contact-1 {
+    width: calc(50% - 170px);
+    padding: 0 120px;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(150, 0, 0);
+  }
+  
+/* p {
+    margin: 0 0 10px 0;
+    line-height: 21px;
+} */
+
+.contact_header{
+    padding: 20px;
+}
+
+.contact_footer{
+    padding: 20px;
+}
+
+.contact {
+    position: fixed;
+    background-color: orange;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contact_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_icon {
+    padding-right: 5px;
+}
+
+.contact_text {
+    color: white;
+}
+
+.footer{
+    float: left;
+    width:100%;
+    min-height: 150px;
+    background-color:#000000;
+}
+.boxcenter{
+   
+    display: flex;
+    margin: 25px 0;
+    color: #fff;
+    font-size: 17px;
+}
+.boxfooter1 h4{
+    width: 100px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #febd01;
+    padding: 0 16%;
+}
+
+.footercontent{
+    text-align: justify;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 15%;
+    padding-right: 22%;
+}
+.boxfooter2 h4 {
+    width: 300px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #febd01;
+}
+.item{
+    font-size: 14px;
+    color:#fff;
+    margin: 20px 0;
+
+}
+.boxfooter3 h4{
+    width: 300px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #febd01;
+  
+ }
+.boxfooter4 h4{
+    width:350px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #febd01;
+    list-style: none;
+} 
+.fanpage{
+    margin: 20px 0;
+    width: 250px;
+    height: 150px;
+}
+.textcenter{
+    padding: 18px 0;
+    background: red;
+    text-align: center;
+    color:#fff ;
+    font-size: 14px;
+}
